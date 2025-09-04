@@ -13,4 +13,6 @@ if (numero % 5 === 0) {
 }
 if (numero % 7 === 0) {
     document.writeln('El número ' + numero + ' es divisible por 7 <br>');
+} if (!esDivisible) {
+    document.writeln('El número ' + numero + ' no es divisible por 2, 3, 5 ni 7.');
 }
